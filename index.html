@@ -1,5 +1,4 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +10,7 @@
     <div class="container">
         <div class="login-box">
             <h1 class="tophead">CSI CONSOLE</h1>
-            <h2>User Dashboard</h2>
+            <h2 class="heading">User Dashboard</h2>
             <p>Manage your events and activities</p>
             <form onsubmit="return validateForm()">
                 <label for="email" class="label">Email address</label>
@@ -20,14 +19,16 @@
 
                 <label for="password" class="label">Password</label>
                 <input type="password" id="password" class="input_field" placeholder="Enter your password" required>
-                <input type="checkbox" id="remember"> <label for="remember">Remember me</label>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember"> 
+                    <label for="remember">Remember me</label>
+                </div>
 
                 <button type="submit">Sign in to Dashboard</button>
             </form>
-            <a href="#">Forgot your password?</a>
+            <a href="forgotpwd.html">Forgot your password?</a>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
-
 </html>
