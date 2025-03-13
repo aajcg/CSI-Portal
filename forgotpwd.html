@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="forgotpwd.css">
+    <link href="https://fonts.cdnfonts.com/css/american-captain-2" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1 class="tophead">CSI CONSOLE</h1>
+            <h2>Password Recovery</h2>
+            <p>Enter your email to reset your password</p>
+            <form id="resetForm" onsubmit="return validateResetForm()">
+                <label for="email" class="label">Email address</label>
+                <input type="text" id="email" class="input_field" placeholder="xxyyyy@srmist.edu.in" oninput="validateEmail()">
+                <div id="email-error" class="error-message"></div>
+
+                <button type="submit">Send Reset Link</button>
+            </form>
+            <div id="success-message" class="success-message"></div>
+            <a href="index.html">Back to Login</a>
+        </div>
+    </div>
+    <script src="forgotpwd.js"></script>
+</body>
+</html>
