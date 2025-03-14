@@ -1,34 +1,104 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>CSI SRMIST Console</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.cdnfonts.com/css/american-captain-2" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <div class="login-box">
-            <h1 class="tophead">CSI CONSOLE</h1>
-            <h2 class="heading">User Dashboard</h2>
-            <p>Manage your events and activities</p>
-            <form onsubmit="return validateForm()">
-                <label for="email" class="label">Email address</label>
-                <input type="email" id="email" class="input_field" placeholder="xxyyyy@srmist.edu.in" required>
-                <span id="email-error" class="error-message"></span>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-section">
+                <div class="logo">
+                    <img src="https://csi-srm-ktr.vercel.app/image.png" class="toplogo" alt="CSI SRMIST Logo">
+                </div>
+                <h1 class="app-title">CSI SRM Console</h1>
+                <button class="collapse-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
 
-                <label for="password" class="label">Password</label>
-                <input type="password" id="password" class="input_field" placeholder="Enter your password" required>
-                <div class="remember-me">
-                    <input type="checkbox" id="remember"> 
-                    <label for="remember">Remember me</label>
+            <div class="sidebar-sections">
+                <div class="section">
+                    <h3 class="section-title">DASHBOARD</h3>
+                    <ul class="nav-links">
+                        <li class="nav-item active">
+                            <a href="#">
+                                <i class="fas fa-home"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
-                <button type="submit">Sign in to Dashboard</button>
-            </form>
-            <a href="forgotpwd.html">Forgot your password?</a>
-        </div>
+                <div class="section">
+                    <h3 class="section-title">EVENTS</h3>
+                    <ul class="nav-links">
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fas fa-user-friends"></i>
+                                <span>Registered Data</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fas fa-qrcode"></i>
+                                <span>Scan Data</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Host Event</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">TICKETS</h3>
+                    <ul class="nav-links">
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fas fa-ticket-alt"></i>
+                                <span>Generate Ticket</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fas fa-chart-pie"></i>
+                                <span>Ticket Stats</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">ADMIN</h3>
+                    <ul class="nav-links">
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fas fa-user-shield"></i>
+                                <span>Manage Admin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <a href="#" class="logout-btn">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Main content will go here - left blank for you to fill in -->
+        </main>
     </div>
-    <script src="script.js"></script>
-</body>
-</html>
