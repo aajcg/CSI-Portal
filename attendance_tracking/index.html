@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracking</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        /* Add this CSS to style the charts */
+        .chart-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            max-width: 800px;
+            margin: auto;
+        }
+        #attendanceChart, #attendanceLineChart {
+            max-width: 400px;
+            max-height: 400px;
+        }
+
+        /* Add this CSS to style the tables */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+        thead {
+            background-color: #36A2EB;
+            color: white;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+        th {
+            background-color: #36A2EB;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Club Logo -->
+        <img src="CSIxSRM Blue Logo.png" alt="Club Logo" class="club-logo">
+
+        <h2>Attendance History </h2>
+        <p>Role: Member</p>
+        <p>Name: Zahra Fatma </p>
+    
+       
+
+    </div>
+
+    <h1>Attendance Summary</h1>
+    <div class="chart-container">
+        <canvas id="attendanceChart"></canvas>
+        <canvas id="attendanceLineChart"></canvas>
+    </div>
+
+    <h1>Online Meet</h1>
+    <table id="onlineAttendanceTable">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Online attendance records will be populated here -->
+        </tbody>
+    </table>
+
+    <h1>Offline Meet</h1>
+    <table id="offlineAttendanceTable">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Offline attendance records will be populated here -->
+        </tbody>
+    </table>
+
+</body>
+</html>
+
