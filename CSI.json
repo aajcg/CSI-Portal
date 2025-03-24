@@ -1,0 +1,96 @@
+{
+  "General FAQs": [
+      {
+          "question": "What is CSI?",
+          "answer": "CSI (Computer Society of India) is a professional body that promotes research, development, and awareness in computing and IT-related fields. Founded in 1965, it is the largest and most professionally managed association of IT professionals in India, aiming to advance the theory and practice of computer science. It has 72 chapters across India, 511 student branches, and 100,000 members."
+      },
+      {
+          "question": "What does the Computer Society of India (CSI) do?",
+          "answer": "CSI's mission is to improve the quality, level, and areas of activities to keep pace with the changing needs and demands of the future. It organizes various activities, including student branches, lecture meetings, seminars, conferences, training programs, programming contests, practical visits, and professional counseling."
+      },
+      {
+          "question": "What are the benefits of joining CSI?",
+          "answer": "By joining CSI, you get:\n - Access to exclusive technical events, workshops, and hackathons\n - Networking opportunities with industry experts and researchers\n - Certification programs, research support, and internship opportunities\n - A platform to showcase your skills and innovations"
+      },
+      {
+          "question": "How is CSI beneficial for students?",
+          "answer": "It provides exposure to real-world technical challenges, mentorship programs, hands-on learning, career development, internships, and job opportunities."
+      },
+      {
+          "question": "What are the eligibility criteria and membership fees to join CSI?",
+          "answer": "Membership fees for B.E/B.Tech students:\n - One-Year Membership: ₹350\n - Two-Year Membership: ₹650\n - Three-Year Membership: ₹900\nFor more details, refer to: https://csiindia.org/docs/csi_feestructure.pdf"
+      }
+  ],
+  "CSI SRM Student Chapter-Specific FAQs": [
+      {
+          "question": "What is the CSI SRM Student Chapter?",
+          "answer": "The CSI SRM Student Chapter is a student-run technical chapter affiliated with CSI, focused on fostering innovation, technical growth, and research among students at SRM Institute of Science and Technology."
+      },
+      {
+          "question": "Who is the Student Coordinator of the CSI SRM Student Chapter?",
+          "answer": "The current Student Coordinator of CSI SRM Student Chapter is John Doe."
+      },
+      {
+          "question": "Who is the faculty in charge of the CSI SRM Student Chapter?",
+          "answer": "The faculty coordinator for the chapter is Dr. Smith from the Computer Science Department."
+      },
+      {
+          "question": "How can I join CSI SRM Student Chapter?",
+          "answer": "You can join by filling out the registration form at https://example.com/register. You can also join during recruitment drives or by contacting us through our social media handles."
+      }
+  ],
+  "Events & Activities": [
+      {
+          "question": "What types of events does the chapter organize?",
+          "answer": "We conduct:\n - Hackathons & coding competitions\n - Workshops & technical talks\n - Research and innovation-based events\n - Networking sessions with industry professionals"
+      },
+      {
+          "question": "What is the upcoming event in CSI SRM?",
+          "answer": "The next event is 'TechFest 2025', scheduled for March 15, 2025. It will feature workshops, speaker sessions, and coding competitions. Stay updated by following our social media pages."
+      },
+      {
+          "question": "Does the chapter offer any mentorship or learning programs?",
+          "answer": "Yes! We organize mentorship programs, hands-on training sessions, and research collaborations to help students upskill."
+      }
+  ],
+  "Domains & Responsibilities": [
+      {
+          "question": "How many domains are there in the CSI SRM Student Chapter?",
+          "answer": "CSI SRM has five main domains:\n - Technical (Web dev, App dev, AI/ML, etc.)\n - Research & Development (Innovation, research projects, publishing papers)\n - Creatives (Graphics, UI/UX, content creation, social media)\n - Management (Event planning, logistics, communication)\n - Promotional (Marketing, sponsorships, outreach)"
+      },
+      {
+          "question": "What does the Technical domain do?",
+          "answer": "The Technical domain focuses on:\n - Conducting coding competitions, hackathons, and workshops\n - Building projects in AI/ML, Web development, and various tech domains\n - Assisting chapter members in upskilling through mentorship programs"
+      },
+      {
+          "question": "What does the Research & Development (R&D) domain do?",
+          "answer": "The R&D domain is responsible for:\n - Researching & developing AI/ML models and cutting-edge technologies\n - Working on CSI-exclusive projects and collaborations\n - Publishing research papers and contributing to open-source initiatives"
+      },
+      {
+          "question": "What does the Creatives domain do?",
+          "answer": "The Creatives team takes care of:\n - Designing posters, UI/UX, branding materials, and social media content\n - Creating engaging video content, animations, and event highlights\n - Managing CSI’s official social media pages"
+      },
+      {
+          "question": "What does the Management domain do?",
+          "answer": "The Management team handles:\n - Planning and executing events, workshops, and meetings\n - Coordinating with different departments and external Resource Persons"
+      },
+      {
+          "question": "What does the Promotional domain do?",
+          "answer": "The Promotional team is responsible for:\n - Handling marketing strategies and social media promotions\n - Seeking sponsorships, partnerships, and collaborations\n - Increasing chapter visibility and engagement among students"
+      }
+  ],
+  "Membership & Involvement": [
+      {
+          "question": "Can I be a part of multiple domains in CSI SRM?",
+          "answer": "Yes, you can contribute to multiple domains based on your skills and interests! We encourage cross-domain collaboration."
+      },
+      {
+          "question": "How can I apply for leadership positions in the chapter?",
+          "answer": "Leadership roles open up at the end of every academic year. Interested members can apply and prove their skills in an interview. Active contribution to the chapter is a key factor."
+      },
+      {
+          "question": "How can I showcase my projects through CSI SRM?",
+          "answer": "You can submit your projects for showcasing at chapter events, hackathons, or research initiatives. Reach out to the Technical or R&D team for guidance."
+      }
+  ]
+}
